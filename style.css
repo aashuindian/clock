@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#clock_container{
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+    background:  url(https://st.depositphotos.com/2819061/3517/i/600/depositphotos_35178103-stock-photo-watch-face.jpg) no-repeat  ;
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+}
+
+#hour,#minute,#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px ;
+    transform-origin: bottom;
+    opacity: 0.7;
+}
+
+#hour{
+    width: 2%;
+    height: 25%;
+    top: 27%;
+    left: 49.5%;
+}
+
+#minute{
+    width: 2%;
+    height: 30%;
+    top: 21.4%;
+    left: 50%;
+    background-color: blue;
+}
+
+#second{
+    width: 2%;
+    height: 35%;
+    top: 16.7%;
+    left: 49.5%;
+    background-color: red;
+}
